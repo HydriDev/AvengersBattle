@@ -1,4 +1,4 @@
-#define kBundlePath @"/Library/MobileSubstrate/DynamicLibraries/ThanosDanceBundle.bundle"
+#define kBundlePath @"/Library/MobileSubstrate/DynamicLibraries/AvengersBattleBundle.bundle"
 
 #import <AVFoundation/AVFoundation.h>
 
@@ -39,7 +39,7 @@
     %orig;
 
     NSBundle *bundle = [[[NSBundle alloc] initWithPath:kBundlePath] autorelease];
-    NSString *videoPath = [bundle pathForResource:@"thanos" ofType:@"mp4"];
+    NSString *videoPath = [bundle pathForResource:@"avengers" ofType:@"mp4"];
 
     if (videoPath != NULL) {
         NSURL *url = [NSURL fileURLWithPath:videoPath];

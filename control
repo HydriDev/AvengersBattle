@@ -1,9 +1,9 @@
-Package: com.brianvalente.thanosdance
-Name: ThanosDance
+Package: com.hydri.avengersbattle
+Name: AvengersBattle
 Depends: mobilesubstrate
-Version: 0.1
+Version: 1.0
 Architecture: iphoneos-arm
-Description: Do you love Thanos and Spider-Man? I do!
-Maintainer: Brian Valente
-Author: Brian Valente
+Description: Do you love the Avengers? I do!
+Maintainer: Hydri
+Author: Hydri
 Section: Tweaks
